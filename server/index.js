@@ -27,7 +27,7 @@ app.use(express.json());
 app.use(cookieParser());
 app.use(
 	cors({
-		origin: "*",
+		origin: "https://studynotion-website-5fem.onrender.com",
 		credentials: true,
 	})
 );
